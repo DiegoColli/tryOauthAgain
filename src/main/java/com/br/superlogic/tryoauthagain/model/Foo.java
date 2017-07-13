@@ -9,7 +9,7 @@ package com.br.superlogic.tryoauthagain.model;
  *
  * @author Diego
  */
-public class User {
+public class Foo {
 
     private long id;
 
@@ -19,11 +19,11 @@ public class User {
 
     private double salary;
 
-    public User() {
+    public Foo() {
         id = 0;
     }
 
-    public User(long id, String name, int age, double salary) {
+    public Foo(long id, String name, int age, double salary) {
         this.id = id;
         this.name = name;
         this.age = age;
@@ -81,7 +81,7 @@ public class User {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        User other = (User) obj;
+        Foo other = (Foo) obj;
         if (id != other.id) {
             return false;
         }
@@ -90,7 +90,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User [id=" + id + ", name=" + name + ", age=" + age
+        return "Foo [id=" + id + ", name=" + name + ", age=" + age
                 + ", salary=" + salary + "]";
     }
 

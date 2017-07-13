@@ -15,6 +15,8 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 /**
  *
  * @author Diego
+ * 
+ * This class is read on system startup
  */
 public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 

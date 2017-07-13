@@ -16,6 +16,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 /**
  *
  * @author Diego
+ * Just the RootConfigClass
+ * Scan all beans
  */
 @Configuration
 @EnableWebMvc
